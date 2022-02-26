@@ -68,7 +68,7 @@ document
     .getElementById("buttonlogin")
     .addEventListener("click", loginsubmit);
 //   <----------------COllect all data from localstorage-------->
-    var register = JSON.parse(localStorage.getItem("BEAUTYKEY"))
+   let BEAUTYARR = JSON.parse(localStorage.getItem("BEAUTYKEY")) || [];
 
 
 //   <-------------------MAKE  A BUTTON FUNCTION CATH INPUT------>
