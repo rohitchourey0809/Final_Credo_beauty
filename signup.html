@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="main.css" /> -->
+    <!-- <link rel="stylesheet" href="footer.css" /> -->
+    <style>
+      #signcontainer {
+  /* border: 1px solid blue !important; */
+  /* height: 500px; */
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  flex-direction: column;
+  text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+  border-radius: 10px;
+}
+
+#buttonsign,
+#buttonlogin {
+  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  padding: 2%;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* background-color: - */
+}
+#buttonsign{
+  background-color: #fff;
+}
+#buttonlogin:hover {
+  background-color: palevioletred;
+}
+
+#head {
+  font-family: "Courier New", Courier, monospace;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+  background-color: white;
+  color: palevioletred;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 40px;
+  /* background-color:black */
+}
+#custo {
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px;
+  font-size: larger;
+}
+#tick {
+  padding: 20px;
+  margin-top: 18px;
+}
+
+#FULLDIV {
+  margin: auto;
+  background-color: #fff;
+
+  /* border: 5px solid black; */
+  text-align: center;
+  width: 50%;
+
+
+}
+
+#Checkboxdiv {
+  /* border: 1px solid black; */
+  display: flex;
+  /* flex-wrap: */
+  /* text-align: center;
+    margin-left: 205px; */
+}
+
+#headingname {
+  /* background: -moz-linear-gradient(green); */
+  text-decoration: overline;
+  text-align: left;
+  border: 1px solid black;
+  margin-right: 80px;
+  font-family: "Times New Roman", Times, serif, 100px;
+  
+  background-color: transparent;
+}
+#headingname {
+  color: #fff;
+  font-size: 20px;
+  background-color: white;
+}
+.inputsize {
+  /* flex-wrap: wrap; */
+  padding: 5px;
+  /* color: blue; */
+  margin-top: 10px;
+ 
+  border-radius: 10px;
+  /* width: 95%; */
+}
+.inputsize {
+  color: black;
+  font-size: 20px;
+  background-color: blanchedalmond;
+}
+body {
+  /* background-color: black; */
+  /* background-image: "https://www.freepik.com/free-vector/mobile-app-concept_4185663.htm#query=sign%20up&position=38&from_view=keyword"; */
+  
+  border-radius: 5px;
+}
+
+#buttonlogin {
+  width: 300px;
+  background-color: bisque;
+}
+.inputsize {
+  width: 500px;
+  height: 30px;
+}
+a {
+  text-align: center;
+  color: teal;
+  font: inherit;
+  font-size: 14px;
+  /* font-size: 14px; */
+}
+#navbarcontainer {
+  margin-bottom: 20px;
+}
+
+/* #logina {
+  color: green;
+  margin-left: 250px;
+}
+#signa {
+  color: green;
+} */
+
+/* <===============Footerccss============================> */
+
+/* <style> */
+
+/* <-------------------------navbar----------------------> */
+
+/* </style> */
+
+    </style>
+    
+  </head>
+  <body>
+    <!-- <------------------------------navnarcontainer-->
+
+    <div id="navbar"></div>
+    <!-- <------------------------------signupcontainer---->
+    <div id="FULLDIV">
+      <!-- <div id = inide -->
+      <div id="head">
+        <h2 id = "custo">CREATE ACCOUNT</h2>
+      </div>
+
+      <hr />
+      <div id="signcontainer">
+        <label id="headingname">FIRST NAME</label>
+        <br />
+        <input
+          type="text"
+          id="fname"
+          placeholder="First Name"
+          class="inputsize"
+        />
+        <br />
+        <br />
+
+        <label id="headingname">LAST NAME</label>
+        <br />
+        <input
+          type="text"
+          id="lname"
+          placeholder="Last Name"
+          class="inputsize"
+        />
+        <br />
+        <br />
+
+        <label id="headingname">BIRTHDAY</label>
+        <br />
+        <input
+          type="date"
+          id="birthinp"
+          placeholder="DATE OF BIRTH"
+          style="width: 95%"
+          class="inputsize"
+        />
+        <br />
+        <br />
+
+        <label id="headingname">EMAIL</label>
+        <br />
+        <input
+          type="email"
+          id="emailinp"
+          placeholder="Email"
+          class="inputsize"
+        />
+        <br />
+        <br />
+
+        <label id="headingname">PASSWORD</label>
+        <br />
+        <input
+          type="text"
+          id="password"
+          placeholder="Password"
+          class="inputsize"
+        />
+        <br />
+        <br />
+        <div id="Checkboxdiv">
+          <!-- <div id="Check"> -->
+          <input
+            id="checktick"
+            type="checkbox"
+            style="margin: 18px 5px 0px 2px; height: 15px; width: 20px"
+          />
+          <!-- </div> -->
+          <!-- <div> -->
+
+          <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+          <!-- </div> -->
+        </div>
+        <br />
+        <button id="buttonsign">SIGN UP</button>
+        <br />
+        <p>RETURNING CUSTOMER?</p>
+        <a href="login.html" id="logina">LOGIN</a>
+      </div>
+    </div>
+
+    <!-- <----------footer----------->
+    <div id="bigfoot"></div>
+  </body>
+</html>
+<script type="module">
+  // <-----------------------navbarcontainer-------->
+  import navBar from "/components/navbar.js";
+  console.log(navBar);
+  let navbar = document.getElementById("navbarcont");
+  navbar.innerHTML = navBar();
+
+  // <------------foooter------------>
+  import footer from "./components/footer.js";
+  console.log(footer);
+  let bigfoot = document.getElementById("bigfoot");
+  bigfoot.innerHTML = footer();
+  // <------------------catchbutton----------------->
+  document
+    .getElementById("buttonsign")
+    .addEventListener("click", signuupsubmit);
+
+  BEAUTYARR = [];
+  // <-----------function work catch input------>
+  function signuupsubmit(event) {
+    event.preventDefault();
+    console.log("rohit");
+    var Fname = document.getElementById("fname").value;
+    console.log(Fname);
+    var Lname = document.getElementById("lname").value;
+    console.log(Lname);
+    var Birthinp = document.getElementById("birthinp").value;
+    console.log(Birthinp);
+    var Emailinp = document.getElementById("emailinp").value;
+    console.log(Emailinp);
+    var Password = document.getElementById("password").value;
+    console.log(Password);
+    var Checktick = document.getElementById("checktick").value;
+    console.log(Checktick);
+
+    // console.log(Fname, Lname, Birthinp, Emailinp, Checktick);
+    // <-------------------GIVE CONDITION-------------------------------->
+    if (Fname == "") {
+      alert("Name must be fillled");
+      return false;
+    } else if (Lname == "") {
+      alert("Lname  must be fillled");
+      return false;
+    } else if (Birthinp == "") {
+      alert("email must be fillled");
+      return false;
+    } else if (Emailinp == "") {
+      alert("Emailinp  must be fillled");
+      return false;
+    } else if (Password == "") {
+      alert("Password  must be fillled");
+      return false;
+    } else if (Checktick == "") {
+      alert("Checktick  must be fillled");
+      return false;
+    } else {
+      alert("Congratulation Sign up successful");
+      window.location.href = "login.html";
+    }
+
+    var beautyobj = {
+      FNAME: Fname,
+      LNAME: Lname,
+      BIRTHINP: Birthinp,
+      EMAILINP: Emailinp,
+      PASSWORD: Password,
+      CHECKTICK: Checktick,
+    };
+    console.log(beautyobj);
+
+    BEAUTYARR.push(beautyobj);
+    console.log(BEAUTYARR);
+    localStorage.setItem("BEAUTYKEY", JSON.stringify(BEAUTYARR));
+  }
+</script>
